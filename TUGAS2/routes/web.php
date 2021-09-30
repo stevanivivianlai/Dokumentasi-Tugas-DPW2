@@ -31,3 +31,11 @@ Route::get('/keranjang', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/admin', function () {
+    return view('admin.index');
+});
